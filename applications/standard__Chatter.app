@@ -4,9 +4,11 @@
     <formFactors>Large</formFactors>
     <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
     <tabs>standard-Chatter</tabs>
     <tabs>standard-UserProfile</tabs>
     <tabs>standard-OtherUserProfile</tabs>
     <tabs>standard-CollaborationGroup</tabs>
     <tabs>standard-File</tabs>
+    <tabs>Target_Object_for_Flexideploy__c</tabs>
 </CustomApplication>

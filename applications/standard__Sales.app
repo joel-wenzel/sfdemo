@@ -3,6 +3,7 @@
     <defaultLandingTab>standard-home</defaultLandingTab>
     <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
     <tabs>standard-Chatter</tabs>
     <tabs>standard-Campaign</tabs>
     <tabs>standard-Lead</tabs>
@@ -17,4 +18,5 @@
     <tabs>standard-Product2</tabs>
     <tabs>standard-report</tabs>
     <tabs>standard-Dashboard</tabs>
+    <tabs>Target_Object_for_Flexideploy__c</tabs>
 </CustomApplication>

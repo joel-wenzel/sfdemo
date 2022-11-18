@@ -74,6 +74,7 @@
         <picklistField>Type</picklistField>
         <picklistObject>Case</picklistObject>
     </dynamicChoiceSets>
+    <environments>Default</environments>
     <formulas>
         <name>User_First_Name_Formula</name>
         <dataType>String</dataType>
@@ -141,6 +142,9 @@
         <connector>
             <targetReference>Assign_Stage_2</targetReference>
         </connector>
+        <faultConnector>
+            <targetReference>Contact_Error_Screen</targetReference>
+        </faultConnector>
         <inputAssignments>
             <field>Email</field>
             <value>
@@ -460,7 +464,7 @@
             <targetReference>Assign_Stage_1</targetReference>
         </connector>
     </start>
-    <status>Draft</status>
+    <status>Active</status>
     <textTemplates>
         <name>Case_Created_Script_Template</name>
         <isViewedAsPlainText>false</isViewedAsPlainText>

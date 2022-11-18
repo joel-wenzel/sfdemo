@@ -1,5 +1,7 @@
 /**
  * An apex page controller that exposes the change password functionality.
+ * Added new comment for browser extensions.
+ * Test add.
  */
 public with sharing class ChangePasswordController {
     public String oldPassword {get; set;}
@@ -7,9 +9,8 @@ public with sharing class ChangePasswordController {
     public String verifyNewPassword {get; set;}        
     
     public PageReference changePassword() {
-        //simple verification. Added by Rama. Demo 6 23
         return Site.changePassword(newPassword, verifyNewPassword, oldpassword);    
     }     
     
-   	public ChangePasswordController() {}
+    public ChangePasswordController() {}
 }

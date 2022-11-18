@@ -4,10 +4,12 @@
     <description>test</description>
     <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
     <label>Trailblazer</label>
     <tabs>standard-Chatter</tabs>
     <tabs>standard-File</tabs>
     <tabs>Waypoint__c</tabs>
     <tabs>standard-report</tabs>
     <tabs>standard-Dashboard</tabs>
+    <tabs>Target_Object_for_Flexideploy__c</tabs>
 </CustomApplication>

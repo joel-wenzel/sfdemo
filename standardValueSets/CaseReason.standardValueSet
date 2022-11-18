@@ -3,7 +3,7 @@
     <sorted>false</sorted>
     <standardValue>
         <fullName>Installation</fullName>
-        <default>false</default>
+        <default>true</default>
         <label>Installation</label>
         <cssExposed>false</cssExposed>
     </standardValue>

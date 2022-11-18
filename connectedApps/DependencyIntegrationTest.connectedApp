@@ -6,6 +6,7 @@
         <callbackUrl>https://flexagon9-dev-ed--devsandbox.lightning.force.com</callbackUrl>
         <consumerKey>3MVG92DxHaawSd0n1dU0p7QiDYDHJXsmI4y_Z2TRHtvkZW9j4WCUqYoySUpDZnI107j6DE.s5sGYLtNb8ziXI</consumerKey>
         <isAdminApproved>false</isAdminApproved>
+        <isClientCredentialEnabled>false</isClientCredentialEnabled>
         <isConsumerSecretOptional>false</isConsumerSecretOptional>
         <isIntrospectAllTokens>false</isIntrospectAllTokens>
         <isSecretRequiredForRefreshToken>true</isSecretRequiredForRefreshToken>

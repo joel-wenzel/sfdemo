@@ -4,5 +4,7 @@
     <formFactors>Large</formFactors>
     <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
     <tabs>standard-AppLauncher</tabs>
+    <tabs>Target_Object_for_Flexideploy__c</tabs>
 </CustomApplication>

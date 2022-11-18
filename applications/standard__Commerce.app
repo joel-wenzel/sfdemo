@@ -3,6 +3,7 @@
     <formFactors>Large</formFactors>
     <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
     <label>Commerce</label>
     <navType>Console</navType>
     <tabs>standard-home</tabs>
@@ -11,8 +12,12 @@
     <tabs>standard-Contact</tabs>
     <tabs>standard-report</tabs>
     <tabs>standard-Order</tabs>
+    <tabs>Target_Object_for_Flexideploy__c</tabs>
     <uiType>Lightning</uiType>
     <workspaceConfig>
+        <mappings>
+            <tab>Target_Object_for_Flexideploy__c</tab>
+        </mappings>
         <mappings>
             <tab>standard-Account</tab>
         </mappings>

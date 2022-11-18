@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LightningMessageChannel xmlns="http://soap.sforce.com/2006/04/metadata">
-    <description>This is a sample Lightning Message Channel.</description>
+    <description>This is a sample Lightning Message Channel testinmg from th e new release.</description>
     <isExposed>false</isExposed>
     <lightningMessageFields>
         <description>This is the record Id that changed</description>
