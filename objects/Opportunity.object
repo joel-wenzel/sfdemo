@@ -608,10 +608,6 @@
                 <fullName>Monthly</fullName>
                 <default>false</default>
             </values>
-            <values>
-                <fullName>Yearly</fullName>
-                <default>false</default>
-            </values>
         </picklistValues>
         <picklistValues>
             <picklist>DeliveryInstallationStatus__c</picklist>

@@ -59,6 +59,7 @@
             <operation>equals</operation>
             <value>Rama</value>
         </criteriaItems>
+        <failedMigrationToolVersion>238.8.5</failedMigrationToolVersion>
         <triggerType>onCreateOnly</triggerType>
     </rules>
     <rules>
