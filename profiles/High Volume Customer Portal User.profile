@@ -733,6 +733,10 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>TestDemo46</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>TestDemo48</apexClass>
         <enabled>false</enabled>
     </classAccesses>
