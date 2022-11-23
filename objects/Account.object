@@ -241,6 +241,7 @@
         <fullName>Active__c</fullName>
         <description>test description</description>
         <externalId>false</externalId>
+        <inlineHelpText>adding a new help text</inlineHelpText>
         <label>Active</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
