@@ -929,6 +929,7 @@
         <searchResultsAdditionalFields>CONTACT.ACCOUNT</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>CASES.PRIORITY</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>CASES.TYPE</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CONTACT.FIRST_NAME</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>ReadWriteTransfer</sharingModel>
     <validationRules>
