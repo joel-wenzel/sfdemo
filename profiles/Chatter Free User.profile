@@ -1484,6 +1484,11 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>Case.Details__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Case.EngineeringReqNumber__c</field>
         <readable>true</readable>
@@ -1536,6 +1541,11 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Case.Sample_field__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Case.SubDetail__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>

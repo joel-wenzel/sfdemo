@@ -765,6 +765,16 @@
             <field>Tutorial_sample__c</field>
             <table>Account.Contacts.Cases</table>
         </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Details__c</field>
+            <table>Account.Contacts.Cases</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>SubDetail__c</field>
+            <table>Account.Contacts.Cases</table>
+        </columns>
         <masterLabel>Cases</masterLabel>
     </sections>
 </ReportType>
