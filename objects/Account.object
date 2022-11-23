@@ -511,6 +511,40 @@
         <fullName>YearStarted</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
+    <fields>
+        <fullName>sample_parent_piuck_list__c</fullName>
+        <externalId>false</externalId>
+        <label>sample parent piuck list</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>aa</fullName>
+                    <default>false</default>
+                    <label>aa</label>
+                </value>
+                <value>
+                    <fullName>bb</fullName>
+                    <default>false</default>
+                    <label>bb</label>
+                </value>
+                <value>
+                    <fullName>cc</fullName>
+                    <default>false</default>
+                    <label>cc</label>
+                </value>
+                <value>
+                    <fullName>dd</fullName>
+                    <default>false</default>
+                    <label>dd</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
     <listViews>
         <fullName>AllAccounts</fullName>
         <filterScope>Everything</filterScope>
@@ -827,6 +861,25 @@
                 <default>false</default>
             </values>
         </picklistValues>
+        <picklistValues>
+            <picklist>sample_parent_piuck_list__c</picklist>
+            <values>
+                <fullName>aa</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>bb</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>cc</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>dd</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
     </recordTypes>
     <recordTypes>
         <fullName>Digital_Ink_Solutions</fullName>
@@ -1111,6 +1164,25 @@
                 <default>false</default>
             </values>
         </picklistValues>
+        <picklistValues>
+            <picklist>sample_parent_piuck_list__c</picklist>
+            <values>
+                <fullName>aa</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>bb</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>cc</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>dd</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
     </recordTypes>
     <recordTypes>
         <fullName>Global_Ecosystem</fullName>
@@ -1384,6 +1456,25 @@
             </values>
             <values>
                 <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>sample_parent_piuck_list__c</picklist>
+            <values>
+                <fullName>aa</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>bb</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>cc</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>dd</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
