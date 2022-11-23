@@ -29,4 +29,16 @@
         <errorMessage><!-- this sample date field cant be cannot be blank --></errorMessage>
         <name>test_validation_v1</name>
     </validationRules>
+    <webLinks>
+        <label><!-- sample_fg --></label>
+        <name>sample_fg</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- sample_fg_button --></label>
+        <name>sample_fg_button</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- sample_fg_button_2 --></label>
+        <name>sample_fg_button_2</name>
+    </webLinks>
 </CustomObjectTranslation>
