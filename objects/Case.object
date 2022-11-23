@@ -553,6 +553,11 @@
             <valueSetDefinition>
                 <sorted>false</sorted>
                 <value>
+                    <fullName>a11</fullName>
+                    <default>false</default>
+                    <label>a11</label>
+                </value>
+                <value>
                     <fullName>a12</fullName>
                     <default>false</default>
                     <label>a12</label>
@@ -573,18 +578,15 @@
                     <label>b13</label>
                 </value>
                 <value>
-                    <fullName>a11</fullName>
-                    <default>false</default>
-                    <isActive>false</isActive>
-                    <label>a11</label>
-                </value>
-                <value>
                     <fullName>c11</fullName>
                     <default>false</default>
-                    <isActive>false</isActive>
                     <label>c11</label>
                 </value>
             </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>AA</controllingFieldValue>
+                <valueName>a11</valueName>
+            </valueSettings>
             <valueSettings>
                 <controllingFieldValue>BB</controllingFieldValue>
                 <valueName>b11</valueName>
@@ -592,6 +594,10 @@
             <valueSettings>
                 <controllingFieldValue>BB</controllingFieldValue>
                 <valueName>b12</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>CC</controllingFieldValue>
+                <valueName>c11</valueName>
             </valueSettings>
         </valueSet>
     </fields>
