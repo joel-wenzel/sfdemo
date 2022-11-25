@@ -20,6 +20,10 @@
         <label><!-- FD_Version_Label --></label>
         <name>FD_Version_Label</name>
     </customLabels>
+    <customLabels>
+        <label><!-- Test_Custom_Label --></label>
+        <name>Test_Custom_Label</name>
+    </customLabels>
     <customPageWebLinks>
         <label><!-- FD --></label>
         <name>FD</name>
