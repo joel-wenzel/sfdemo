@@ -1,5 +1,5 @@
 trigger PushNotificationTrigger on Property__c (after update) {
-    
+    //commented lines
     /* Commented.
     for (Property__c property : Trigger.New) {
         
@@ -13,7 +13,8 @@ trigger PushNotificationTrigger on Property__c (after update) {
             msg.send('DreamHouzz', users);
         } 
         
-    }
-	*/
+    } 
+    
+    */
 
 }
