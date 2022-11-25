@@ -201,7 +201,7 @@
                 <assignedToTemplate>unfiled$public/SupportEscalatedCaseReassignment</assignedToTemplate>
                 <assignedToType>User</assignedToType>
                 <minutesToEscalation>1080</minutesToEscalation>
-                <notifyCaseOwner>false</notifyCaseOwner>
+                <notifyCaseOwner>true</notifyCaseOwner>
                 <notifyTo>flexagon9@flexagon.com</notifyTo>
                 <notifyToTemplate>unfiled$public/SupportEscalatedCaseNotification</notifyToTemplate>
             </escalationAction>
