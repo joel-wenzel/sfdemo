@@ -22,4 +22,8 @@
             </criteriaItems>
         </ruleEntry>
     </assignmentRule>
+    <assignmentRule>
+        <fullName>Test_Assignment_Rule</fullName>
+        <active>false</active>
+    </assignmentRule>
 </AssignmentRules>
