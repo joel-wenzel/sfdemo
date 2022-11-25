@@ -821,6 +821,10 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>TestingClass</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>classDependency</apexClass>
         <enabled>true</enabled>
     </classAccesses>
