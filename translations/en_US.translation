@@ -52,6 +52,10 @@
         <label><!-- Data Import --></label>
         <name>Sample_Data_Import</name>
     </customTabs>
+    <customTabs>
+        <label><!-- Testing --></label>
+        <name>Testing</name>
+    </customTabs>
     <flowDefinitions>
         <flows/>
         <fullName>Advertise_New_Property</fullName>

@@ -3680,6 +3680,10 @@
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
+        <tab>Testing</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
         <tab>Waypoint__c</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
