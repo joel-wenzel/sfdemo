@@ -3830,6 +3830,10 @@
         <apexPage>UnderConstruction</apexPage>
         <enabled>false</enabled>
     </pageAccesses>
+    <pageAccesses>
+        <apexPage>test_sample_page</apexPage>
+        <enabled>false</enabled>
+    </pageAccesses>
     <recordTypeVisibilities>
         <default>true</default>
         <recordType>Account.Customer</recordType>
