@@ -342,6 +342,11 @@
                     <default>false</default>
                     <label>BBBB</label>
                 </value>
+                <value>
+                    <fullName>YYYY</fullName>
+                    <default>false</default>
+                    <label>YYYY</label>
+                </value>
             </valueSetDefinition>
         </valueSet>
     </fields>
@@ -919,6 +924,10 @@
             </values>
             <values>
                 <fullName>CC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>YYYY</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
