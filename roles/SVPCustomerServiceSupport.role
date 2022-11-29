@@ -4,7 +4,7 @@
     <contactAccessLevel>Edit</contactAccessLevel>
     <description>SVP, Customer Service &amp; Support</description>
     <mayForecastManagerShare>false</mayForecastManagerShare>
-    <name>SVP, Customer Service &amp; Support</name>
+    <name>SVP, Customer Service&amp;Support</name>
     <opportunityAccessLevel>Edit</opportunityAccessLevel>
     <parentRole>CEO</parentRole>
 </Role>
