@@ -44,6 +44,16 @@
         <field>FlowInterviewLog$CreatedBy</field>
     </columns>
     <description>Which flows run, what’s the status of each interview, and how long do users take to complete the screens?</description>
+    <filter>
+        <criteriaItems>
+            <column>FlowInterviewLog$CreatedDate</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value></value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
     <format>Summary</format>
     <groupingsDown>
         <dateGranularity>Day</dateGranularity>
