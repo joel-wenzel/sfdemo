@@ -45,6 +45,7 @@
             <operation>notEqual</operation>
             <value>null</value>
         </criteriaItems>
+        <description>AccountNotification</description>
         <triggerType>onCreateOrTriggeringUpdate</triggerType>
     </rules>
     <rules>
