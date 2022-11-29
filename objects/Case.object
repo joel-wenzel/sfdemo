@@ -331,6 +331,16 @@
                     <default>false</default>
                     <label>CC</label>
                 </value>
+                <value>
+                    <fullName>AAAA</fullName>
+                    <default>false</default>
+                    <label>AAAA</label>
+                </value>
+                <value>
+                    <fullName>BBBB</fullName>
+                    <default>false</default>
+                    <label>BBBB</label>
+                </value>
             </valueSetDefinition>
         </valueSet>
     </fields>
@@ -710,7 +720,15 @@
                 <default>false</default>
             </values>
             <values>
+                <fullName>AAAA</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>BB</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>BBBB</fullName>
                 <default>false</default>
             </values>
             <values>
