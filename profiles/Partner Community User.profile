@@ -839,6 +839,11 @@
     <custom>false</custom>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Acccount__c.Test__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Acccount__c.sample_date__c</field>
         <readable>false</readable>
     </fieldPermissions>

@@ -840,6 +840,11 @@
     <description>Monitoring users</description>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Acccount__c.Test__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Acccount__c.sample_date__c</field>
         <readable>true</readable>
     </fieldPermissions>

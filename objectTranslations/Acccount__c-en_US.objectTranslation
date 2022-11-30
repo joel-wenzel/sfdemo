@@ -9,6 +9,22 @@
         <value>Accounts</value>
     </caseValues>
     <fields>
+        <label><!-- Test --></label>
+        <name>Test__c</name>
+        <picklistValues>
+            <masterLabel>AAAA</masterLabel>
+            <translation><!-- AAAA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BBBB</masterLabel>
+            <translation><!-- BBBB --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CCCC</masterLabel>
+            <translation><!-- CCCC --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
         <help><!-- test change --></help>
         <label><!-- sample date --></label>
         <name>sample_date__c</name>
