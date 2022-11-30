@@ -204,6 +204,30 @@
         <type>Text</type>
     </nameField>
     <pluralLabel>Accounts</pluralLabel>
+    <recordTypes>
+        <fullName>Record_type_1</fullName>
+        <active>true</active>
+        <label>Record type 1</label>
+        <picklistValues>
+            <picklist>Test__c</picklist>
+            <values>
+                <fullName>1111</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AAAA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>BBBB</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CCCC</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <validationRules>

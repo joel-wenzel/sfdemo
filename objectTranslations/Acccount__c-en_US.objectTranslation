@@ -44,6 +44,10 @@
             <section>FD Test</section>
         </sections>
     </layouts>
+    <recordTypes>
+        <label><!-- Record type 1 --></label>
+        <name>Record_type_1</name>
+    </recordTypes>
     <startsWith>Consonant</startsWith>
     <validationRules>
         <errorMessage><!-- this sample date field cant be cannot be blank --></errorMessage>

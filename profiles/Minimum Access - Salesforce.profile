@@ -3202,6 +3202,10 @@
         <flow>sample_flow_test_2</flow>
     </flowAccesses>
     <layoutAssignments>
+        <layout>Acccount__c-Acc Layout</layout>
+        <recordType>Acccount__c.Record_type_1</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Account-Account %28Marketing%29 Layout</layout>
         <recordType>Account.Customer</recordType>
     </layoutAssignments>
@@ -3460,6 +3464,11 @@
         <apexPage>testing_page</apexPage>
         <enabled>false</enabled>
     </pageAccesses>
+    <recordTypeVisibilities>
+        <default>true</default>
+        <recordType>Acccount__c.Record_type_1</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
     <recordTypeVisibilities>
         <default>true</default>
         <recordType>Account.Customer</recordType>

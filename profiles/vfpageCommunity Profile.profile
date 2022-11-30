@@ -3205,6 +3205,10 @@
         <layout>Acccount__c-Acc Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Acccount__c-Acc Layout</layout>
+        <recordType>Acccount__c.Record_type_1</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Account-Account Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -3613,6 +3617,11 @@
         <apexPage>testing_page</apexPage>
         <enabled>false</enabled>
     </pageAccesses>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Acccount__c.Record_type_1</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
     <recordTypeVisibilities>
         <default>false</default>
         <recordType>Account.Customer</recordType>
