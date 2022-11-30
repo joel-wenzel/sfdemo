@@ -212,18 +212,10 @@
             <picklist>Test__c</picklist>
             <values>
                 <fullName>1111</fullName>
-                <default>false</default>
+                <default>true</default>
             </values>
             <values>
                 <fullName>AAAA</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>BBBB</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>CCCC</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
