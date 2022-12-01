@@ -444,6 +444,16 @@
         </valueSet>
     </fields>
     <fields>
+        <fullName>Sample_Ext_ID__c</fullName>
+        <externalId>true</externalId>
+        <label>Sample Ext ID</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>ShippingAddress</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
