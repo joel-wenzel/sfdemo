@@ -1,6 +1,6 @@
-// 09/12/2022 demo.
 global class LightningForgotPasswordController {
 
+    //added new comments
     public LightningForgotPasswordController() {
 
     }

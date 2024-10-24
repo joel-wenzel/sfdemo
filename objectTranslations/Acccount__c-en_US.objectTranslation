@@ -9,6 +9,15 @@
         <value>Accounts</value>
     </caseValues>
     <fields>
+        <help><!-- Test Help Text --></help>
+        <label><!-- Active --></label>
+        <name>Active__c</name>
+    </fields>
+    <fields>
+        <label><!-- ExternalID_Acc --></label>
+        <name>ExternalID_Acc__c</name>
+    </fields>
+    <fields>
         <label><!-- Test --></label>
         <name>Test__c</name>
         <picklistValues>

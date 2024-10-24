@@ -184,14 +184,11 @@
     </actionOverrides>
     <actionOverrides>
         <actionName>View</actionName>
-        <comment>Action override created by Lightning App Builder during activation.</comment>
-        <content>test_page_v1</content>
-        <formFactor>Large</formFactor>
-        <skipRecordTypeSelect>false</skipRecordTypeSelect>
-        <type>Flexipage</type>
+        <type>Default</type>
     </actionOverrides>
     <actionOverrides>
         <actionName>View</actionName>
+        <formFactor>Large</formFactor>
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
@@ -199,51 +196,10 @@
         <formFactor>Small</formFactor>
         <type>Default</type>
     </actionOverrides>
-    <businessProcesses>
-        <fullName>Finance</fullName>
-        <isActive>true</isActive>
-        <values>
-            <fullName>Closed</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Escalated</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>New</fullName>
-            <default>true</default>
-        </values>
-        <values>
-            <fullName>Working</fullName>
-            <default>false</default>
-        </values>
-    </businessProcesses>
-    <businessProcesses>
-        <fullName>HR</fullName>
-        <isActive>true</isActive>
-        <values>
-            <fullName>Closed</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Escalated</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>New</fullName>
-            <default>true</default>
-        </values>
-        <values>
-            <fullName>Working</fullName>
-            <default>false</default>
-        </values>
-    </businessProcesses>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>true</enableFeeds>
     <fields>
         <fullName>AccountId</fullName>
-        <inlineHelpText>sample help text with goutham</inlineHelpText>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
@@ -258,7 +214,6 @@
     </fields>
     <fields>
         <fullName>BusinessHoursId</fullName>
-        <inlineHelpText>this is the business hour with muthu</inlineHelpText>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
@@ -328,57 +283,9 @@
     </fields>
     <fields>
         <fullName>Description</fullName>
-        <inlineHelpText>Please add a description to the case.sample 001</inlineHelpText>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>true</trackHistory>
         <trackTrending>false</trackTrending>
-    </fields>
-    <fields>
-        <fullName>Details__c</fullName>
-        <externalId>false</externalId>
-        <inlineHelpText>test</inlineHelpText>
-        <label>Details</label>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Picklist</type>
-        <valueSet>
-            <restricted>true</restricted>
-            <valueSetDefinition>
-                <sorted>false</sorted>
-                <value>
-                    <fullName>AA</fullName>
-                    <default>false</default>
-                    <label>AA</label>
-                </value>
-                <value>
-                    <fullName>BB</fullName>
-                    <default>false</default>
-                    <label>BB</label>
-                </value>
-                <value>
-                    <fullName>CC</fullName>
-                    <default>false</default>
-                    <label>CC</label>
-                </value>
-                <value>
-                    <fullName>AAAA</fullName>
-                    <default>false</default>
-                    <label>AAAA</label>
-                </value>
-                <value>
-                    <fullName>BBBB</fullName>
-                    <default>false</default>
-                    <label>BBBB</label>
-                </value>
-                <value>
-                    <fullName>YYYY</fullName>
-                    <default>false</default>
-                    <label>YYYY</label>
-                </value>
-            </valueSetDefinition>
-        </valueSet>
     </fields>
     <fields>
         <fullName>EngineeringReqNumber__c</fullName>
@@ -406,7 +313,6 @@
     </fields>
     <fields>
         <fullName>Origin</fullName>
-        <inlineHelpText>Please add case origin. Also add more  info about the origin</inlineHelpText>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>true</trackHistory>
         <trackTrending>false</trackTrending>
@@ -462,7 +368,7 @@
         <fullName>Product__c</fullName>
         <externalId>false</externalId>
         <label>Product</label>
-        <required>true</required>
+        <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
@@ -534,7 +440,7 @@
     </fields>
     <fields>
         <fullName>Reason</fullName>
-        <inlineHelpText>Please add a reason for the case........new change</inlineHelpText>
+        <inlineHelpText>Please add reason for the Case</inlineHelpText>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>true</trackHistory>
         <trackTrending>false</trackTrending>
@@ -566,86 +472,11 @@
         </valueSet>
     </fields>
     <fields>
-        <fullName>Sample_field__c</fullName>
-        <externalId>false</externalId>
-        <label>Sample field</label>
-        <length>255</length>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Text</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
         <fullName>Status</fullName>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>true</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
-    </fields>
-    <fields>
-        <fullName>SubDetail__c</fullName>
-        <externalId>false</externalId>
-        <label>SubDetail</label>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Picklist</type>
-        <valueSet>
-            <controllingField>Details__c</controllingField>
-            <restricted>true</restricted>
-            <valueSetDefinition>
-                <sorted>false</sorted>
-                <value>
-                    <fullName>a11</fullName>
-                    <default>false</default>
-                    <label>a11</label>
-                </value>
-                <value>
-                    <fullName>a12</fullName>
-                    <default>false</default>
-                    <label>a12</label>
-                </value>
-                <value>
-                    <fullName>b11</fullName>
-                    <default>false</default>
-                    <label>b11</label>
-                </value>
-                <value>
-                    <fullName>b12</fullName>
-                    <default>false</default>
-                    <label>b12</label>
-                </value>
-                <value>
-                    <fullName>b13</fullName>
-                    <default>false</default>
-                    <label>b13</label>
-                </value>
-                <value>
-                    <fullName>c11</fullName>
-                    <default>false</default>
-                    <label>c11</label>
-                </value>
-            </valueSetDefinition>
-            <valueSettings>
-                <controllingFieldValue>AA</controllingFieldValue>
-                <valueName>a11</valueName>
-            </valueSettings>
-            <valueSettings>
-                <controllingFieldValue>BB</controllingFieldValue>
-                <valueName>b11</valueName>
-            </valueSettings>
-            <valueSettings>
-                <controllingFieldValue>BB</controllingFieldValue>
-                <valueName>b12</valueName>
-            </valueSettings>
-            <valueSettings>
-                <controllingFieldValue>CC</controllingFieldValue>
-                <valueName>c11</valueName>
-            </valueSettings>
-        </valueSet>
     </fields>
     <fields>
         <fullName>Sub_Category__c</fullName>
@@ -725,6 +556,10 @@
             </valueSettings>
             <valueSettings>
                 <controllingFieldValue>State</controllingFieldValue>
+                <valueName>Karnataka</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>State</controllingFieldValue>
                 <valueName>Maharastra</valueName>
             </valueSettings>
             <valueSettings>
@@ -760,15 +595,16 @@
         <trackTrending>false</trackTrending>
     </fields>
     <fields>
-        <fullName>Tutorial_sample__c</fullName>
+        <fullName>Test_sample_custom_field__c</fullName>
         <externalId>false</externalId>
-        <label>Tutorial sample</label>
-        <length>255</length>
+        <label>Test sample custom field</label>
+        <precision>18</precision>
         <required>false</required>
+        <scale>0</scale>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
-        <type>Text</type>
+        <type>Number</type>
         <unique>false</unique>
     </fields>
     <fields>
@@ -793,30 +629,6 @@
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Lookup</type>
-    </fields>
-    <fields>
-        <fullName>field_for_profiel__c</fullName>
-        <externalId>false</externalId>
-        <label>field for profiel</label>
-        <length>255</length>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Text</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
-        <fullName>tutorial_01__c</fullName>
-        <externalId>false</externalId>
-        <label>tutorial 01</label>
-        <length>255</length>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Text</type>
-        <unique>false</unique>
     </fields>
     <listViews>
         <fullName>AllClosedCases</fullName>
@@ -860,490 +672,6 @@
         </filters>
         <label>My Open Cases</label>
     </listViews>
-    <recordTypeTrackFeedHistory>false</recordTypeTrackFeedHistory>
-    <recordTypeTrackHistory>true</recordTypeTrackHistory>
-    <recordTypes>
-        <fullName>FINANCE</fullName>
-        <active>true</active>
-        <businessProcess>Finance</businessProcess>
-        <label>FINANCE</label>
-        <picklistValues>
-            <picklist>Category__c</picklist>
-            <values>
-                <fullName>City</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Country</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>State</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
-        <picklistValues>
-            <picklist>Details__c</picklist>
-            <values>
-                <fullName>AA</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>BB</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>CC</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
-        <picklistValues>
-            <picklist>Origin</picklist>
-            <values>
-                <fullName>Email</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Phone</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Web</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
-        <picklistValues>
-            <picklist>PotentialLiability__c</picklist>
-            <values>
-                <fullName>No</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Yes</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
-        <picklistValues>
-            <picklist>Priority</picklist>
-            <values>
-                <fullName>High</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Low</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Medium</fullName>
-                <default>true</default>
-            </values>
-        </picklistValues>
-        <picklistValues>
-            <picklist>Product__c</picklist>
-            <values>
-                <fullName>GC1020</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>GC1040</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>GC1060</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>GC3020</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>GC3040</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>GC3060</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>GC5020</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>GC5040</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>GC5060</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
-        <picklistValues>
-            <picklist>Reason</picklist>
-            <values>
-                <fullName>Breakdown</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Equipment Complexity</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Equipment Design</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Feedback</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Installation</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Other</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Performance</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
-        <picklistValues>
-            <picklist>SLAViolation__c</picklist>
-            <values>
-                <fullName>No</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Yes</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
-        <picklistValues>
-            <picklist>SubDetail__c</picklist>
-            <values>
-                <fullName>a12</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>b11</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>b12</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>b13</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
-        <picklistValues>
-            <picklist>Sub_Category__c</picklist>
-            <values>
-                <fullName>Bangalore</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Bhubaneswar</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>India</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Karnataka</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Maharastra</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Mumbai</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Odisha</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Srilanka</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>US</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
-        <picklistValues>
-            <picklist>Type</picklist>
-            <values>
-                <fullName>Electrical</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Electronic</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Mechanical</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Other</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Structural</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
-    </recordTypes>
-    <recordTypes>
-        <fullName>HR</fullName>
-        <active>true</active>
-        <businessProcess>HR</businessProcess>
-        <label>HR</label>
-        <picklistValues>
-            <picklist>Category__c</picklist>
-            <values>
-                <fullName>City</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Country</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>State</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
-        <picklistValues>
-            <picklist>Details__c</picklist>
-            <values>
-                <fullName>AA</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>BB</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>CC</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>YYYY</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
-        <picklistValues>
-            <picklist>Origin</picklist>
-            <values>
-                <fullName>Email</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Phone</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Web</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
-        <picklistValues>
-            <picklist>PotentialLiability__c</picklist>
-            <values>
-                <fullName>No</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Yes</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
-        <picklistValues>
-            <picklist>Priority</picklist>
-            <values>
-                <fullName>High</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Low</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Medium</fullName>
-                <default>true</default>
-            </values>
-        </picklistValues>
-        <picklistValues>
-            <picklist>Product__c</picklist>
-            <values>
-                <fullName>GC1020</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>GC1040</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>GC1060</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>GC3020</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>GC3040</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>GC3060</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>GC5020</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>GC5040</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>GC5060</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
-        <picklistValues>
-            <picklist>Reason</picklist>
-            <values>
-                <fullName>Breakdown</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Equipment Complexity</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Equipment Design</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Feedback</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Installation</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Other</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Performance</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
-        <picklistValues>
-            <picklist>SLAViolation__c</picklist>
-            <values>
-                <fullName>No</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Yes</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
-        <picklistValues>
-            <picklist>SubDetail__c</picklist>
-            <values>
-                <fullName>a12</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>b11</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>b12</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>b13</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
-        <picklistValues>
-            <picklist>Sub_Category__c</picklist>
-            <values>
-                <fullName>Bangalore</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Bhubaneswar</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>India</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Karnataka</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Maharastra</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Mumbai</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Odisha</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Srilanka</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>US</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
-        <picklistValues>
-            <picklist>Type</picklist>
-            <values>
-                <fullName>Electrical</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Electronic</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Mechanical</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Other</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Structural</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
-    </recordTypes>
     <searchLayouts>
         <customTabListAdditionalFields>CASES.CASE_NUMBER</customTabListAdditionalFields>
         <customTabListAdditionalFields>CASES.SUBJECT</customTabListAdditionalFields>
@@ -1364,26 +692,10 @@
         <searchResultsAdditionalFields>CASES.STATUS</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>CASES.CREATED_DATE</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>CORE.USERS.ALIAS</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>CONTACT.ACCOUNT</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>CASES.PRIORITY</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>CASES.TYPE</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>CONTACT.FIRST_NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CASES.ORIGIN</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>ReadWriteTransfer</sharingModel>
-    <validationRules>
-        <fullName>CASE_DESCRIPTION_IS_NOT_BLANK</fullName>
-        <active>true</active>
-        <errorConditionFormula>ISNULL(Description)</errorConditionFormula>
-        <errorDisplayField>Description</errorDisplayField>
-        <errorMessage>DESCRIPTION CANNOT BE NULL</errorMessage>
-    </validationRules>
-    <validationRules>
-        <fullName>case_origin_is_not_protals</fullName>
-        <active>true</active>
-        <errorConditionFormula>ISPICKVAL(Origin  , &apos;PORTAL&apos;)</errorConditionFormula>
-        <errorDisplayField>Origin</errorDisplayField>
-        <errorMessage>You cannot have case origin as Portal</errorMessage>
-    </validationRules>
     <webLinks>
         <fullName>UpsellCrosssellOpportunity</fullName>
         <availability>online</availability>

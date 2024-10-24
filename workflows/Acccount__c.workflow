@@ -5,10 +5,6 @@
         <description>EmailRama</description>
         <protected>false</protected>
         <recipients>
-            <recipient>bhagabatbhuyan@flexagon.com</recipient>
-            <type>user</type>
-        </recipients>
-        <recipients>
             <recipient>rama.rimmalapudi@flexagon.com</recipient>
             <type>user</type>
         </recipients>
@@ -49,7 +45,6 @@
             <operation>notEqual</operation>
             <value>null</value>
         </criteriaItems>
-        <description>AccountNotification</description>
         <triggerType>onCreateOrTriggeringUpdate</triggerType>
     </rules>
     <rules>
@@ -64,7 +59,6 @@
             <operation>equals</operation>
             <value>Rama</value>
         </criteriaItems>
-        <failedMigrationToolVersion>238.8.5</failedMigrationToolVersion>
         <triggerType>onCreateOnly</triggerType>
     </rules>
     <rules>

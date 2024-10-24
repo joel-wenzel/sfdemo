@@ -8,22 +8,6 @@
     <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
     <label>Sales</label>
     <navType>Standard</navType>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>test_v1</content>
-        <formFactor>Small</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <type>Flexipage</type>
-        <profile>Custom: Support Profile</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>test_v1</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <type>Flexipage</type>
-        <profile>Custom: Support Profile</profile>
-    </profileActionOverrides>
     <tabs>standard-home</tabs>
     <tabs>standard-Opportunity</tabs>
     <tabs>standard-Lead</tabs>
@@ -39,8 +23,6 @@
     <tabs>standard-Event</tabs>
     <tabs>standard-OtherUserProfile</tabs>
     <tabs>standard-Case</tabs>
-    <tabs>standard-News</tabs>
     <tabs>standard-Forecasting3</tabs>
-    <tabs>Target_Object_for_Flexideploy__c</tabs>
     <uiType>Lightning</uiType>
 </CustomApplication>

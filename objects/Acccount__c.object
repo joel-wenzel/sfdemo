@@ -154,7 +154,25 @@
     <enableSearch>false</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
-    <externalSharingModel>ReadWrite</externalSharingModel>
+    <fields>
+        <fullName>Active__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>Test Help Text</inlineHelpText>
+        <label>Active</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>ExternalID_Acc__c</fullName>
+        <externalId>true</externalId>
+        <label>ExternalID_Acc</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
     <fields>
         <fullName>Test__c</fullName>
         <externalId>false</externalId>
@@ -165,7 +183,12 @@
         <valueSet>
             <restricted>true</restricted>
             <valueSetDefinition>
-                <sorted>false</sorted>
+                <sorted>true</sorted>
+                <value>
+                    <fullName>1111</fullName>
+                    <default>false</default>
+                    <label>1111</label>
+                </value>
                 <value>
                     <fullName>AAAA</fullName>
                     <default>false</default>
@@ -180,11 +203,6 @@
                     <fullName>CCCC</fullName>
                     <default>false</default>
                     <label>CCCC</label>
-                </value>
-                <value>
-                    <fullName>1111</fullName>
-                    <default>false</default>
-                    <label>1111</label>
                 </value>
             </valueSetDefinition>
         </valueSet>

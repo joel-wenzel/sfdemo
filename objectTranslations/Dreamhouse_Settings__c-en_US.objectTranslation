@@ -4,10 +4,6 @@
         <plural>false</plural>
         <value>Dreamhouse</value>
     </caseValues>
-    <caseValues>
-        <plural>true</plural>
-        <value>Dreamhouse</value>
-    </caseValues>
     <fields>
         <label><!-- LIFX Token --></label>
         <name>LIFX_Token__c</name>

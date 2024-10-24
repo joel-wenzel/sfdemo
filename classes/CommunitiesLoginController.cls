@@ -1,11 +1,12 @@
+// 12/16/2023 Demo CHG 2
 /**
- * An apex page controller that exposes the site login functionality. Test for demo
+ * An apex page controller that exposes the site login functionality
  */
 global with sharing class CommunitiesLoginController {
 
     global CommunitiesLoginController () {}
     
-    // Code we will invoke on page load. Demo test.
+    // Code we will invoke on page load.
     global PageReference forwardToAuthPage() {
         String startUrl = System.currentPageReference().getParameters().get('startURL');
         String displayType = System.currentPageReference().getParameters().get('display');
