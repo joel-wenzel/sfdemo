@@ -180,10 +180,26 @@
     <tabs>standard-Case</tabs>
     <tabs>standard-Opportunity</tabs>
     <tabs>standard-Lead</tabs>
-    <tabs>Target_Object_for_Flexideploy__c</tabs>
+    <tabs>Sample1__c</tabs>
+    <tabs>Sample2__c</tabs>
+    <tabs>Bank_Branch__c</tabs>
+    <tabs>Customer__c</tabs>
+    <tabs>Test_sample__c</tabs>
     <workspaceConfig>
         <mappings>
-            <tab>Target_Object_for_Flexideploy__c</tab>
+            <tab>Bank_Branch__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Customer__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Sample1__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Sample2__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Test_sample__c</tab>
         </mappings>
         <mappings>
             <tab>standard-Account</tab>

@@ -4,11 +4,11 @@ public class SessionControllerTest {
     static testMethod void testGetSessionId() {
         Boolean success = true;
         try {
-	        Id sessionId = SessionController.getSessionId();
+            Id sessionId = SessionController.getSessionId();
         } catch (Exception e) {
-            //success = false;
+            success = false;
         } finally {
-	        System.assert(success);
+            System.assert(success);
         }
     }
 

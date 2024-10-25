@@ -1,14 +1,14 @@
 @isTest
 private class DemoControllerTests {
     @isTest static void testConstructor() {
-    	Contact contact = new Contact(LastName='Smith');
-    	insert contact;
+        Contact contact = new Contact(LastName='Smith');
+        insert contact;
 
-    	Test.setCurrentPage(Page.DemoPage);   	
-    	ApexPages.currentPage().getParameters().put('lastName', 'Smith');
+        Test.setCurrentPage(Page.DemoPage);     
+        ApexPages.currentPage().getParameters().put('lastName', 'Jon');
 
-    	DemoController demo = new DemoController(new ApexPages.StandardController(contact));
-    	System.assertEquals(contact.Id, ApexPages.currentPage().getParameters().get('id'));
+        DemoController demo = new DemoController(new ApexPages.StandardController(contact));
+        System.assertEquals(contact.Id, ApexPages.currentPage().getParameters().get('id'));
     }
 
     @isTest static void testGetAppVersion() {

@@ -163,9 +163,9 @@
         <unique>false</unique>
     </fields>
     <fields>
-        <fullName>Sample_text1__c</fullName>
+        <fullName>Sample_Text1__c</fullName>
         <externalId>false</externalId>
-        <label>Sample text1</label>
+        <label>Sample Text1</label>
         <length>255</length>
         <required>false</required>
         <trackTrending>false</trackTrending>

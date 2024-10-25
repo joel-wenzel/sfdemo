@@ -128,7 +128,6 @@
     </actionOverrides>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
-    <externalSharingModel>Private</externalSharingModel>
     <fields>
         <fullName>Action</fullName>
         <trackHistory>false</trackHistory>
@@ -149,6 +148,11 @@
     <fields>
         <fullName>CaptureSource</fullName>
         <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>DataUsePurposeId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
     </fields>
     <fields>
         <fullName>DoubleConsentCaptureDate</fullName>

@@ -154,49 +154,14 @@
     <enableSearch>false</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
-    <externalSharingModel>ReadWrite</externalSharingModel>
     <fields>
-        <fullName>Test__c</fullName>
+        <fullName>Active__c</fullName>
+        <defaultValue>false</defaultValue>
         <externalId>false</externalId>
-        <label>Test</label>
-        <required>false</required>
+        <inlineHelpText>Test Help Text</inlineHelpText>
+        <label>Active</label>
         <trackTrending>false</trackTrending>
-        <type>Picklist</type>
-        <valueSet>
-            <restricted>true</restricted>
-            <valueSetDefinition>
-                <sorted>false</sorted>
-                <value>
-                    <fullName>AAAA</fullName>
-                    <default>false</default>
-                    <label>AAAA</label>
-                </value>
-                <value>
-                    <fullName>BBBB</fullName>
-                    <default>false</default>
-                    <label>BBBB</label>
-                </value>
-                <value>
-                    <fullName>CCCC</fullName>
-                    <default>false</default>
-                    <label>CCCC</label>
-                </value>
-                <value>
-                    <fullName>1111</fullName>
-                    <default>false</default>
-                    <label>1111</label>
-                </value>
-            </valueSetDefinition>
-        </valueSet>
-    </fields>
-    <fields>
-        <fullName>sample_date__c</fullName>
-        <externalId>false</externalId>
-        <inlineHelpText>test change</inlineHelpText>
-        <label>sample date</label>
-        <required>false</required>
-        <trackTrending>false</trackTrending>
-        <type>DateTime</type>
+        <type>Checkbox</type>
     </fields>
     <label>Acccount</label>
     <nameField>
@@ -204,87 +169,7 @@
         <type>Text</type>
     </nameField>
     <pluralLabel>Accounts</pluralLabel>
-    <recordTypes>
-        <fullName>Record_type_1</fullName>
-        <active>true</active>
-        <label>Record type 1</label>
-        <picklistValues>
-            <picklist>Test__c</picklist>
-            <values>
-                <fullName>1111</fullName>
-                <default>true</default>
-            </values>
-            <values>
-                <fullName>AAAA</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
-    </recordTypes>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
-    <validationRules>
-        <fullName>test_validation_v1</fullName>
-        <active>true</active>
-        <errorConditionFormula>ISNULL(sample_date__c  )</errorConditionFormula>
-        <errorDisplayField>sample_date__c</errorDisplayField>
-        <errorMessage>this sample date field cant be cannot be blank</errorMessage>
-    </validationRules>
     <visibility>Public</visibility>
-    <webLinks>
-        <fullName>sample_fg</fullName>
-        <availability>online</availability>
-        <displayType>link</displayType>
-        <encodingKey>UTF-8</encodingKey>
-        <hasMenubar>false</hasMenubar>
-        <hasScrollbars>true</hasScrollbars>
-        <hasToolbar>false</hasToolbar>
-        <height>600</height>
-        <isResizable>true</isResizable>
-        <linkType>url</linkType>
-        <masterLabel>sample fg</masterLabel>
-        <openType>newWindow</openType>
-        <position>none</position>
-        <protected>false</protected>
-        <showsLocation>false</showsLocation>
-        <showsStatus>false</showsStatus>
-        <url>/{Id}</url>
-    </webLinks>
-    <webLinks>
-        <fullName>sample_fg_button</fullName>
-        <availability>online</availability>
-        <displayType>button</displayType>
-        <encodingKey>UTF-8</encodingKey>
-        <hasMenubar>false</hasMenubar>
-        <hasScrollbars>true</hasScrollbars>
-        <hasToolbar>false</hasToolbar>
-        <height>600</height>
-        <isResizable>true</isResizable>
-        <linkType>url</linkType>
-        <masterLabel>sample fg button</masterLabel>
-        <openType>newWindow</openType>
-        <position>none</position>
-        <protected>false</protected>
-        <showsLocation>false</showsLocation>
-        <showsStatus>false</showsStatus>
-        <url>/id</url>
-    </webLinks>
-    <webLinks>
-        <fullName>sample_fg_button_2</fullName>
-        <availability>online</availability>
-        <displayType>button</displayType>
-        <encodingKey>UTF-8</encodingKey>
-        <hasMenubar>false</hasMenubar>
-        <hasScrollbars>true</hasScrollbars>
-        <hasToolbar>false</hasToolbar>
-        <height>600</height>
-        <isResizable>true</isResizable>
-        <linkType>url</linkType>
-        <masterLabel>sample fg button 2</masterLabel>
-        <openType>newWindow</openType>
-        <position>none</position>
-        <protected>false</protected>
-        <showsLocation>false</showsLocation>
-        <showsStatus>false</showsStatus>
-        <url>/Id</url>
-    </webLinks>
 </CustomObject>

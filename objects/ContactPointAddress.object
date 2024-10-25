@@ -128,7 +128,6 @@
     </actionOverrides>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
-    <externalSharingModel>Private</externalSharingModel>
     <fields>
         <fullName>ActiveFromDate</fullName>
         <trackHistory>false</trackHistory>
@@ -172,8 +171,17 @@
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
+        <fullName>IsThirdPartyAddress</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
         <fullName>Name</fullName>
         <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>OwnerId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
     </fields>
     <fields>
         <fullName>ParentId</fullName>
@@ -189,6 +197,11 @@
         <trackHistory>false</trackHistory>
         <type>Picklist</type>
     </fields>
+    <listViews>
+        <fullName>All_ContactPointAddresses</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All Contact Point Addresses</label>
+    </listViews>
     <searchLayouts>
         <customTabListAdditionalFields>Parent</customTabListAdditionalFields>
         <customTabListAdditionalFields>ActiveFromDate</customTabListAdditionalFields>
@@ -201,5 +214,5 @@
         <searchResultsAdditionalFields>IsPrimary</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>IsDefault</searchResultsAdditionalFields>
     </searchLayouts>
-    <sharingModel>ReadWrite</sharingModel>
+    <sharingModel>ControlledByParent</sharingModel>
 </CustomObject>

@@ -72,7 +72,6 @@
     </actionOverrides>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
-    <externalSharingModel>ReadWrite</externalSharingModel>
     <fields>
         <fullName>EventDate</fullName>
     </fields>
@@ -81,6 +80,8 @@
     </fields>
     <fields>
         <fullName>Report</fullName>
+        <businessStatus>Active</businessStatus>
+        <description>Report</description>
     </fields>
     <fields>
         <fullName>Score</fullName>

@@ -32,6 +32,10 @@
         <label><!-- Title --></label>
         <name>Title__c</name>
     </fields>
+    <fields>
+        <label><!-- custom_Field --></label>
+        <name>custom_Field__c</name>
+    </fields>
     <layouts>
         <layout>Broker Layout</layout>
         <sections>
